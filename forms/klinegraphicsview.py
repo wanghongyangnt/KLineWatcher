@@ -7,6 +7,7 @@ from PyQt5.QtWidgets import (QDialog, QLabel, QSlider, QMenuBar, QMenu, QAction,
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QGraphicsScene, QGraphicsView, QGraphicsSimpleTextItem,
                              QGraphicsTextItem, QGraphicsEllipseItem, QGraphicsRectItem,
                              QGraphicsPixmapItem, QGraphicsPolygonItem, QGraphicsPathItem)
+                             
 from .transdialog import TransDialog
 
 class KLineGraphicsView(QMainWindow):
